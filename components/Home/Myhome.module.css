@@ -1,0 +1,131 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  color: darkgrey;
+}
+.title {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(
+    to right,
+    rgb(94, 39, 202),
+    rgb(232, 147, 20)
+  );
+  background: linear-gradient(to right, rgb(94, 39, 202), rgb(232, 147, 20));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.right_section {
+  width: 60%;
+  height: auto;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left_section {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.community_image {
+  width: 450px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 170px;
+  padding: 10px 0px;
+  background-color: rgb(232, 147, 20);
+  border-radius: 25px 25px 25px 0px;
+  color: white;
+}
+.button_icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  font-weight: bold;
+  /* color: rgb(94, 39, 202); */
+}
+.button:hover {
+  cursor: pointer;
+}
+.description {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 20px;
+}
+.click {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+.icon {
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(80, 80, 79);
+  border-radius: 25px 25px 0px 25px;
+  color: rgb(233, 173, 83);
+  margin-left: 10px;
+  padding-left: 20px;
+  margin-top: 30px;
+  width: 170px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_desc {
+  font-size: 1rem;
+}
+.icon_down {
+  color: rgb(233, 173, 83);
+  font-size: 3rem;
+  animation: icon infinite 0.8s ease;
+}
+@keyframes icon {
+  0% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(3px);
+  }
+  0% {
+    transform: translateY(-3px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding-bottom: 200px;
+  }
+  .community_image {
+    width: 250px;
+  }
+  .left_section {
+    order: 1;
+    width: 100%;
+  }
+  .right_section {
+    width: 100%;
+    order: 2;
+  }
+  .right_section,
+  .left_section {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .right_section,
+  .left_section {
+    padding: 30px;
+    width: 100%;
+  }
+}
