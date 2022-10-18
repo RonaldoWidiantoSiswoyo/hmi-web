@@ -1,6 +1,7 @@
 import styles from "./Myhome.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import communityImage from "../../public/community.png";
 
 export default function MyHome() {
   return (
@@ -36,18 +37,20 @@ export default function MyHome() {
         </div>
       </div>
       <div className={styles["left__section"]}>
-        {/* <Image
-          src="/community.png"
+        <Image
+          src={communityImage}
           width={500}
           height={700}
+          layout="fill"
+          objectFit="contain"
           alt="Community"
           className={styles["community_image"]}
-        /> */}
-        <img
-          src="community.png"
+        />
+        {/* <img
+          src={communityImage}
           alt="Community Image"
           className={styles["community__image"]}
-        />
+        /> */}
       </div>
     </div>
   );
