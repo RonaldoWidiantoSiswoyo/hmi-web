@@ -13,7 +13,7 @@
     rgb(232, 147, 20)
   );
   background: linear-gradient(to right, rgb(94, 39, 202), rgb(232, 147, 20));
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .right__section {
