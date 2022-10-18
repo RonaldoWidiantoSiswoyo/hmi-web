@@ -40,8 +40,8 @@ export default function MyHome() {
           src="/community.png"
           width={500}
           height={700}
-          layout="fill"
-          objectFit="contain"
+          // layout="fill"
+          // objectFit="contain"
           alt="Community"
         />
       </div>
