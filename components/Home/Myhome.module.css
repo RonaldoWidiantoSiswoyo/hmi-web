@@ -106,8 +106,8 @@
   }
   .left__section {
     /* position: relative; */
-    width: 100px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
     order: 1;
     width: 100%;
   }
