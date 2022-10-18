@@ -28,6 +28,10 @@
   justify-content: center;
   align-items: center;
 }
+.about__description {
+  color: darkgray;
+  font-size: 1rem;
+}
 .swiper__slide {
   width: 90%;
   padding: 1em 2em;

@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "swiper/css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-// import "swiper/css/AutoPlay";
 import styles from "./About.module.css";
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
@@ -21,7 +20,6 @@ export default function About() {
               delay: 3000,
               disableOnInteraction: false,
             }}
-            // modules={[Autoplay]}
           >
             <SwiperSlide className={styles["swiper__slide"]}>
               <Image
@@ -63,13 +61,13 @@ export default function About() {
         </div>
         <div className={styles["about__right-section"]}>
           <h1>About Us</h1>
-          <p>
+          <p className={styles["about__description"]}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
             perspiciatis qui vero esse harum ab porro delectus officiis
             quibusdam voluptatum, pariatur quod perferendis commodi eveniet quo
             dolorum at dolores non.
           </p>
-          <p>
+          <p className={styles["about__description"]}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
             dolore nobis, illo officia veritatis rem, impedit repellendus
             eligendi, corporis officiis vero laborum? Modi a tenetur ex
