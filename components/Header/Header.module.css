@@ -34,20 +34,6 @@
   align-items: center;
   width: 40%;
 }
-/* .navbar {
-  width: 60%;
-  display: flex;
-} */
-/* .navbar_item {
-  font-size: 0.9rem;
-  padding: 0 15px;
-  list-style: none;
-  transition: 0.3s;
-  color: rgb(197, 194, 194);
-}
-.navbar_item:hover {
-  color: rgb(239, 162, 38);
-} */
 
 @media screen and (max-width: 768px) {
   .header {
