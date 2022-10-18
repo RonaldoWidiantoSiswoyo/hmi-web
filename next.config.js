@@ -3,8 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 };
-module.exports = {
-  images: {
-    disableStaticImages: true,
-  },
-};
+module.exports = nextConfig;
