@@ -119,6 +119,23 @@
   .left__section {
     padding: 30px;
   }
+  .right__section-title {
+    font-size: 2.5rem;
+  }
+  .right__section-description {
+    font-size: 0.8rem;
+  }
+  /* .button__join,
+  .button__scroll-desc,
+  .button__scroll-icon,
+  .button__icon {
+    font-size: 1rem;
+  }
+  .button__scroll,
+  .button__join {
+    padding: 15px 0px;
+    width: 140px;
+  } */
 }
 @media screen and (max-width: 576px) {
   .right__section,
