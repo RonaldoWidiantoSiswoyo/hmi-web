@@ -1,7 +1,6 @@
-import styles from "./Myhome.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import communityImage from "../../public/community.png";
+import styles from "./Myhome.module.css";
 
 export default function MyHome() {
   return (
@@ -44,7 +43,6 @@ export default function MyHome() {
           layout="fill"
           objectFit="contain"
           alt="Community"
-          className={styles["community_image"]}
         />
       </div>
     </div>

@@ -32,9 +32,9 @@
   justify-content: center;
   align-items: center;
 }
-.community__image {
+/* .community__image {
   width: 450px;
-}
+} */
 .button__join {
   display: flex;
   justify-content: center;

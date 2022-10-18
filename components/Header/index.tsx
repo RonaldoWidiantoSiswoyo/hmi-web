@@ -13,7 +13,6 @@ export default function Header() {
           <Image src="/hm.png" width={30} height={30} alt="Logo HMI" />
           <a className={styles.title}>HistoryMaker Impact</a>
         </div>
-
         <div className={Toggle ? "show_menu" : "navbar_container"}>
           <ul className="navbar">
             <li className="navbar_item">
