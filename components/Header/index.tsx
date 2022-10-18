@@ -17,7 +17,7 @@ export default function Header() {
         <div className={Toggle ? "show_menu" : "navbar_container"}>
           <ul className="navbar">
             <li className="navbar_item">
-              <Link href="/">
+              <Link href="#home">
                 <div className="navlink_container">
                   <i className="uil uil-estate navlink"></i>
                   <a>Home</a>
@@ -25,7 +25,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="navbar_item">
-              <Link href="#">
+              <Link href="#about">
                 <div className="navlink_container">
                   <i className="uil uil-user-circle navlink"></i>
                   <a>About</a>
@@ -33,7 +33,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="navbar_item">
-              <Link href="#">
+              <Link href="#event">
                 <div className="navlink_container">
                   <i className="uil uil-schedule navlink"></i>
                   <a>Event</a>
@@ -41,7 +41,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="navbar_item">
-              <Link href="#">
+              <Link href="#familycare">
                 <div className="navlink_container">
                   <i className="uil uil-heart-alt navlink"></i>
                   <a>Family Care</a>
@@ -49,7 +49,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="navbar_item">
-              <Link href="#">
+              <Link href="#prayerbox">
                 <div className="navlink_container">
                   <i className="uil uil-envelope-heart navlink"></i>
                   <a>Prayer Box</a>
@@ -57,7 +57,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="navbar_item">
-              <Link href="#">
+              <Link href="#contact">
                 <div className="navlink_container">
                   <i className="uil uil-phone navlink"></i>
                   <a>Contact</a>

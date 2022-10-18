@@ -5,7 +5,7 @@
   flex-direction: row;
   color: darkgrey;
 }
-.title {
+.right__section-title {
   font-size: 3rem;
   background: -webkit-linear-gradient(
     to right,
@@ -16,7 +16,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.right_section {
+.right__section {
   width: 60%;
   height: auto;
   padding: 0 100px;
@@ -24,17 +24,17 @@
   flex-direction: column;
   justify-content: center;
 }
-.left_section {
+.left__section {
   width: 40%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.community_image {
+.community__image {
   width: 450px;
 }
-.button {
+.button__join {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,33 +48,32 @@
   border-radius: 25px 25px 25px 0px;
   color: white;
 }
-.button_icon {
+.button__icon {
   font-size: 1.5rem;
   margin-right: 10px;
   font-weight: bold;
   /* color: rgb(94, 39, 202); */
 }
-.button:hover {
+.button__join:hover {
   cursor: pointer;
 }
-.description {
+.right__section-description {
   font-size: 0.9rem;
   font-weight: 300;
   line-height: 20px;
 }
-.click {
+.button {
   width: auto;
   height: auto;
   display: flex;
 }
-.icon {
+.button__scroll {
   text-align: center;
   font-weight: bold;
-  background-color: rgb(80, 80, 79);
   border-radius: 25px 25px 0px 25px;
   color: rgb(233, 173, 83);
   margin-left: 10px;
-  padding-left: 20px;
+  border: 1px solid rgb(80, 80, 79);
   margin-top: 30px;
   width: 170px;
   height: auto;
@@ -82,10 +81,11 @@
   justify-content: center;
   align-items: center;
 }
-.icon_desc {
+.button__scroll-desc {
   font-size: 1rem;
+  padding-left: 15px;
 }
-.icon_down {
+.button__scroll-icon {
   color: rgb(233, 173, 83);
   font-size: 3rem;
   animation: icon infinite 0.8s ease;
@@ -106,25 +106,25 @@
     flex-direction: column;
     padding-bottom: 200px;
   }
-  .community_image {
+  .community__image {
     width: 250px;
   }
-  .left_section {
+  .left__section {
     order: 1;
     width: 100%;
   }
-  .right_section {
+  .right__section {
     width: 100%;
     order: 2;
   }
-  .right_section,
-  .left_section {
+  .right__section,
+  .left__section {
     padding: 30px;
   }
 }
 @media screen and (max-width: 576px) {
-  .right_section,
-  .left_section {
+  .right__section,
+  .left__section {
     padding: 30px;
     width: 100%;
   }
