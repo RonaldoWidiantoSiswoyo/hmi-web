@@ -29,7 +29,7 @@ export default function MyHome() {
             <a href="#about" className={styles["button__scroll-desc"]}>
               Scroll Down
             </a>
-            <a href="" className={styles["button__scroll-icon"]}>
+            <a href="#about" className={styles["button__scroll-icon"]}>
               <i className="uil uil-angle-down"></i>
             </a>
           </div>

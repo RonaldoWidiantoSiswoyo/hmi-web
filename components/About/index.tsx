@@ -16,7 +16,7 @@ export default function About() {
             onSwiper={(swiper) => console.log(swiper)}
             loop={true}
             autoplay={{
-              delay: 100,
+              delay: 5000,
               disableOnInteraction: false,
             }}
           >
