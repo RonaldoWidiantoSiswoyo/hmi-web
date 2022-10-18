@@ -28,13 +28,7 @@
   position: relative;
   width: 40%;
   height: 650px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-/* .community__image {
-  width: 450px;
-} */
 .button__join {
   display: flex;
   justify-content: center;
