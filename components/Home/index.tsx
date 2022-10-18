@@ -46,11 +46,6 @@ export default function MyHome() {
           alt="Community"
           className={styles["community_image"]}
         />
-        {/* <img
-          src={communityImage}
-          alt="Community Image"
-          className={styles["community__image"]}
-        /> */}
       </div>
     </div>
   );
