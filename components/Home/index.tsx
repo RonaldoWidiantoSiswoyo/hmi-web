@@ -36,18 +36,18 @@ export default function MyHome() {
         </div>
       </div>
       <div className={styles["left__section"]}>
-        {/* <Image
+        <Image
           src="/community.png"
           width={500}
           height={700}
           alt="Community"
           className={styles["community_image"]}
-        /> */}
-        <img
+        />
+        {/* <img
           src="/community.png"
           alt="Community Image"
           className={styles["community__image"]}
-        />
+        /> */}
       </div>
     </div>
   );
