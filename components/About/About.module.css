@@ -69,3 +69,18 @@
     transform: translateY(-3px);
   }
 }
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 0px 100px 0px;
+  }
+  .section {
+    flex-direction: column;
+  }
+  .about__left-section,
+  .about__right-section {
+    width: 100%;
+  }
+  .about__right-section {
+    height: 400px;
+  }
+}

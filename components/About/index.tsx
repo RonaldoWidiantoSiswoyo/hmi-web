@@ -1,26 +1,24 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "swiper/css";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 import styles from "./About.module.css";
 
 export default function About() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="about">
       <div className={styles.section}>
         <div className={styles["about__left-section"]}>
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            navigation
-            // pagination={{ clickable: true }}
-            // scrollbar={{ draggable: true }}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
+            loop={true}
+            autoplay={{
+              delay: 100,
+              disableOnInteraction: false,
+            }}
           >
             <SwiperSlide className={styles["swiper__slide"]}>
               <Image
@@ -75,7 +73,7 @@ export default function About() {
             perferendis facere sapiente. Sit.
           </p>
           <div className={styles["about__button"]}>
-            <a href="#" className={styles["button__scroll-desc"]}>
+            <a href="#event" className={styles["button__scroll-desc"]}>
               Our Event?
             </a>
             <a href="" className={styles["button__scroll-icon"]}>

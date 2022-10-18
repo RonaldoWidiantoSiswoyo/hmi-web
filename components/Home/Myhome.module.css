@@ -99,7 +99,7 @@
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
   }
   .community__image {
     width: 250px;

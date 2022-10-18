@@ -26,7 +26,7 @@ export default function MyHome() {
           </Link>
 
           <div className={styles["button__scroll"]}>
-            <a href="#" className={styles["button__scroll-desc"]}>
+            <a href="#about" className={styles["button__scroll-desc"]}>
               Scroll Down
             </a>
             <a href="" className={styles["button__scroll-icon"]}>
