@@ -1,9 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "swiper/css";
-
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
+// import "swiper/css/AutoPlay";
 import styles from "./About.module.css";
 
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 export default function About() {
   return (
     <div className={styles.container} id="about">
@@ -16,9 +18,10 @@ export default function About() {
             onSwiper={(swiper) => console.log(swiper)}
             loop={true}
             autoplay={{
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: false,
             }}
+            // modules={[Autoplay]}
           >
             <SwiperSlide className={styles["swiper__slide"]}>
               <Image
