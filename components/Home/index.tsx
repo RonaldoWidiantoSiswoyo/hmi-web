@@ -37,7 +37,7 @@ export default function MyHome() {
       </div>
       <div className={styles["left__section"]}>
         <Image
-          src="/community.png"
+          src="/comm.png"
           width={500}
           height={700}
           // layout="fill"
