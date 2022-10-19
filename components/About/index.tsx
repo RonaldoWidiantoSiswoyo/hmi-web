@@ -152,19 +152,19 @@ export default function About() {
               tenetur ex perferendis facere sapiente. Sit.
             </p>
           </div> */}
-          <div className="about__asking">
-            {/* <p className={styles["about__asking-desc"]}>
+          {/* <div className="about__asking"> */}
+          {/* <p className={styles["about__asking-desc"]}>
               Want to know about Our Event?
             </p> */}
-            <div className={styles["about__button"]}>
-              <a href="#event" className={styles["button__scroll-desc"]}>
-                Want to know more about Our Event? Click button below!
-              </a>
-              {/* <a href="" className={styles["button__scroll-tombol"]}>
+          <div className={styles["about__button"]}>
+            <a href="#event" className={styles["button__scroll-desc"]}>
+              Want to know more about Our Event? Click button below!
+            </a>
+            {/* <a href="" className={styles["button__scroll-tombol"]}>
                 Click Me
               </a> */}
-            </div>
           </div>
+          {/* </div> */}
           <a href="" className={styles["button__scroll-icon"]}>
             Our Event
             {/* <i className="uil uil-arrow-right"></i> */}
