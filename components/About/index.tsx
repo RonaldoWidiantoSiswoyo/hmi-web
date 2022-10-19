@@ -26,7 +26,7 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm1.jpg"
                 alt="Foto HMI 1"
-                objectFit="cover"
+                // objectFit="cover"
                 width={1000}
                 height={650}
               />
