@@ -1,13 +1,13 @@
 .container {
   width: 100%;
   height: auto;
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .section {
-  width: 95%;
+  width: 90%;
   background-color: #111111;
   border-radius: 20px;
   display: flex;

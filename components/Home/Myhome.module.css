@@ -3,7 +3,7 @@
   height: auto;
   display: flex;
   margin-top: 10px;
-  /* flex-direction: row; */
+  flex-direction: row;
   color: darkgrey;
 }
 .right__section-title {
