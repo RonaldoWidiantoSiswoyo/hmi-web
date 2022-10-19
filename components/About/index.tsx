@@ -158,7 +158,9 @@ export default function About() {
             </p> */}
           <div className={styles["about__button"]}>
             <a href="#event" className={styles["button__scroll-desc"]}>
-              Want to know more about Our Event? Click button below!
+              Want to know more about Our Event?
+              <br />
+              Click button below!
             </a>
             {/* <a href="" className={styles["button__scroll-tombol"]}>
                 Click Me

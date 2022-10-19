@@ -81,6 +81,8 @@
 } */
 .button__scroll-desc {
   margin-top: 30px;
+  text-align: center;
+  width: 400px;
   font-size: 0.8rem;
   /* padding: 0em 2em; */
 }
