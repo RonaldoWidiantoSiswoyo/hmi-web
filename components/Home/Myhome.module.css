@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   color: darkgrey;
 }
 .right__section-title {
@@ -103,11 +103,9 @@
     width: 250px;
   }
   .left__section {
-    /* width: 10rem;
-    height: 30rem; */
     order: 1;
     height: auto;
-    width: 100%;
+    width: 250px;
   }
   .right__section {
     width: 100%;
