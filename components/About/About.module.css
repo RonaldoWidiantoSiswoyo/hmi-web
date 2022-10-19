@@ -82,6 +82,7 @@
 .button__scroll-desc {
   margin-top: 30px;
   font-size: 0.8rem;
+  /* padding: 0em 2em; */
 }
 .button__scroll-desc:hover {
   color: rgb(232, 147, 20);
@@ -114,17 +115,22 @@
 }
 @media screen and (max-width: 768px) {
   /* .container {
-    padding: 20px 0px 100px 0px;
+    margin: 0;
+    padding: 0;
   } */
   .section {
     flex-direction: column;
   }
-  .about__left-section,
+  /* .about__left-section,
   .about__right-section {
     width: 100%;
+  } */
+  .button__scroll-desc {
+    padding: 0em 2em;
   }
   .about__left-section {
     order: 1;
+    width: 100%;
   }
   .about__right-section {
     order: 2;
