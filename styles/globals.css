@@ -74,9 +74,10 @@ a {
   }
   .navbar_container {
     position: fixed;
-    bottom: 50px;
+    bottom: 60px;
     left: 0;
-    height: 200px;
+    /* padding-bottom: 2em; */
+    height: 230px;
     width: 100%;
     background-color: #191919;
     padding: 2em 0em 4em 0em;
