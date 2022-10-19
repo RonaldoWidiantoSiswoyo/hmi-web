@@ -25,7 +25,11 @@
   justify-content: center;
 }
 .left__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40%;
+  padding: 0px;
   height: 650px;
 }
 .button__join {
@@ -105,7 +109,7 @@
   .left__section {
     order: 1;
     height: auto;
-    width: 250px;
+    width: 100%;
   }
   .right__section {
     width: 100%;
@@ -113,7 +117,7 @@
   }
   .right__section,
   .left__section {
-    padding: 30px;
+    padding: 0px 30px;
   }
   .right__section-title {
     font-size: 2.5rem;
