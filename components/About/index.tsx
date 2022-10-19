@@ -11,6 +11,7 @@ export default function About() {
       <div className={styles.section}>
         <div className={styles["about__left-section"]}>
           <Swiper
+            className={styles.swiper}
             spaceBetween={50}
             slidesPerView={1}
             onSlideChange={() => console.log("slide change")}
