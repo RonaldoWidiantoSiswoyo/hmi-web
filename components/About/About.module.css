@@ -128,8 +128,9 @@
   .about__right-section {
     width: 100%;
   } */
-  .button__scroll-desc {
-    padding: 2em 2em;
+  .button__scroll-icon {
+    /* padding: 0em 2em; */
+    margin-bottom: 2em;
   }
   .about__left-section {
     order: 1;
