@@ -82,6 +82,9 @@
   margin-top: 30px;
   font-size: 0.8rem;
 }
+.button__scroll-desc:hover {
+  color: rgb(232, 147, 20);
+}
 .button__scroll-icon {
   margin-top: 10px;
   padding: 8px 15px;

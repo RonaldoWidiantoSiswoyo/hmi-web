@@ -13,6 +13,8 @@ a {
   text-decoration: none;
 }
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 /* ======= HEADER ======= */
@@ -74,7 +76,7 @@ a {
   }
   .navbar_container {
     position: fixed;
-    bottom: 60px;
+    bottom: 50px;
     left: 0;
     height: 200px;
     width: 100%;
