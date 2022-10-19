@@ -44,8 +44,6 @@ export default function MyHome() {
           objectFit="contain"
           alt="Community"
         />
-        {/* <div className={styles.coreImage}>
-        </div> */}
       </div>
     </div>
   );
