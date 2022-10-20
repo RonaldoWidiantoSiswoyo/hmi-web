@@ -150,7 +150,7 @@ export default function About() {
               Click button below!
             </a>
           </div>
-          <a href="" className={styles["button__scroll-icon"]}>
+          <a href="#" className={styles["button__scroll-icon"]}>
             Our Event
           </a>
         </div>
