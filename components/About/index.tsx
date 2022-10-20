@@ -58,7 +58,7 @@ export default function About() {
                 // height={450}
               />
             </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
+            {/* <SwiperSlide className={styles["swiper__slide"]}>
               <img
                 className={styles["item__image"]}
                 src="/abouthm5.jpg"
@@ -66,7 +66,7 @@ export default function About() {
                 // width={700}
                 // height={450}
               />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide className={styles["swiper__slide"]}>
               <img
                 className={styles["item__image"]}
@@ -103,7 +103,7 @@ export default function About() {
                 // height={450}
               />
             </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
+            {/* <SwiperSlide className={styles["swiper__slide"]}>
               <img
                 className={styles["item__image"]}
                 src="/abouthm10.jpg"
@@ -120,7 +120,7 @@ export default function About() {
                 // width={700}
                 // height={450}
               />
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
         <div className={styles["about__right-section"]}>

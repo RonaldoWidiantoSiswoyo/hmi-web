@@ -14,7 +14,6 @@
   display: flex;
   padding: 10px;
 }
-
 .about__left-section {
   width: 50%;
   height: auto;
@@ -42,11 +41,11 @@
 }
 .swiper {
   width: 100%;
-  /* height: auto; */
+  height: auto;
 }
 .swiper__slide {
   width: 100%;
-  /* height: auto; */
+  height: auto;
 }
 .item__image {
   border-radius: 10px;
