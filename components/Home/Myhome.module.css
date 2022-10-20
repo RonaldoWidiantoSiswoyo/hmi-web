@@ -99,7 +99,7 @@
     transform: translateY(-3px);
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .container {
     margin-top: 0;
     flex-direction: column;
@@ -126,8 +126,8 @@
   }
   .right__section-description {
     font-size: 0.8rem;
-  }
-  /* .button__join,
+  } */
+/* .button__join,
   .button__scroll-desc,
   .button__scroll-icon,
   .button__icon {
@@ -138,7 +138,7 @@
     padding: 15px 0px;
     width: 140px;
   } */
-}
+/* } */
 /* @media screen and (max-width: 576px) {
   .right__section,
   .left__section {
