@@ -40,10 +40,34 @@ export default function Header() {
               </Link>
             </li>
             <li className="navbar_item">
+              <Link href="#department">
+                <div className="navlink_container">
+                  <i className="uil uil-layers-alt navlink"></i>
+                  <a>Department</a>
+                </div>
+              </Link>
+            </li>
+            <li className="navbar_item">
               <Link href="#familycare">
                 <div className="navlink_container">
                   <i className="uil uil-heart-alt navlink"></i>
                   <a>Family Care</a>
+                </div>
+              </Link>
+            </li>
+            <li className="navbar_item">
+              <Link href="#hmw">
+                <div className="navlink_container">
+                  <i className="uil uil-music navlink"></i>
+                  <a>HMW</a>
+                </div>
+              </Link>
+            </li>
+            <li className="navbar_item">
+              <Link href="#ourstory">
+                <div className="navlink_container">
+                  <i className="uil uil-history navlink"></i>
+                  <a>Our Story</a>
                 </div>
               </Link>
             </li>
