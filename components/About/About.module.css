@@ -14,10 +14,10 @@
   display: flex;
   padding: 10px 10px;
 }
-.swiper {
+/* .swiper {
   width: 100%;
   height: auto;
-}
+} */
 .about__left-section {
   width: 50%;
   height: auto;
