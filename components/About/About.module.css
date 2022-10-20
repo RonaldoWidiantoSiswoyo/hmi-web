@@ -100,7 +100,7 @@
     transform: translateY(-3px);
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .section {
     flex-direction: column;
   }
@@ -120,4 +120,4 @@
   .about__right-section {
     padding: 0em 1em;
   }
-}
+} */
