@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div className={styles["container__about"]} id="about">
       <div className={styles.section}>
-        <div className={styles["about__left-section"]}>
+        {/* <div className={styles["about__left-section"]}>
           <Swiper
             className={styles.swiper}
             spaceBetween={50}
@@ -58,15 +58,7 @@ export default function About() {
                 // height={450}
               />
             </SwiperSlide>
-            {/* <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm5.jpg"
-                alt="Foto HMI 5"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide> */}
+
             <SwiperSlide className={styles["swiper__slide"]}>
               <img
                 className={styles["item__image"]}
@@ -103,26 +95,8 @@ export default function About() {
                 // height={450}
               />
             </SwiperSlide>
-            {/* <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm10.jpg"
-                alt="Foto HMI 10"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm11.jpg"
-                alt="Foto HMI 11"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide> */}
           </Swiper>
-        </div>
+        </div> */}
         <div className={styles["about__right-section"]}>
           <h1 className={styles["about__title"]}>About Us</h1>
           <div>

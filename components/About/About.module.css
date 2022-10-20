@@ -89,7 +89,7 @@
   color: white;
   background-color: rgb(232, 147, 20);
 }
-@keyframes icon {
+/* @keyframes icon {
   0% {
     transform: translateY(-3px);
   }
@@ -99,7 +99,7 @@
   0% {
     transform: translateY(-3px);
   }
-}
+} */
 @media screen and (max-width: 768px) {
   .section {
     flex-direction: column;
