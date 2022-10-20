@@ -4,12 +4,12 @@ import "swiper/css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 import styles from "./About.module.css";
 
-SwiperCore.use([Autoplay, Pagination, Navigation]);
+SwiperCore.use([Autoplay]);
 export default function About() {
   return (
     <div className={styles["container__about"]} id="about">
       <div className={styles.section}>
-        {/* <div className={styles["about__left-section"]}>
+        <div className={styles["about__left-section"]}>
           <Swiper
             className={styles.swiper}
             spaceBetween={50}
@@ -96,7 +96,7 @@ export default function About() {
               />
             </SwiperSlide>
           </Swiper>
-        </div> */}
+        </div>
         <div className={styles["about__right-section"]}>
           <h1 className={styles["about__title"]}>About Us</h1>
           <div>
