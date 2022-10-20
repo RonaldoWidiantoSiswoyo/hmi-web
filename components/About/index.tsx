@@ -27,8 +27,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm1.jpg"
                 alt="Foto HMI 1"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -36,8 +36,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm2.jpg"
                 alt="Foto HMI 2"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -45,8 +45,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm3.jpg"
                 alt="Foto HMI 3"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -54,8 +54,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm4.jpg"
                 alt="Foto HMI 4"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -63,8 +63,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm5.jpg"
                 alt="Foto HMI 5"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -72,8 +72,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm6.jpg"
                 alt="Foto HMI 6"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -81,8 +81,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm7.jpg"
                 alt="Foto HMI 7"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -90,8 +90,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm8.jpg"
                 alt="Foto HMI 8"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -99,8 +99,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm9.jpg"
                 alt="Foto HMI 9"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -108,8 +108,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm10.jpg"
                 alt="Foto HMI 10"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
             <SwiperSlide className={styles["swiper__slide"]}>
@@ -117,8 +117,8 @@ export default function About() {
                 className={styles["item__image"]}
                 src="/abouthm11.jpg"
                 alt="Foto HMI 11"
-                width={1000}
-                height={650}
+                width={700}
+                height={450}
               />
             </SwiperSlide>
           </Swiper>
