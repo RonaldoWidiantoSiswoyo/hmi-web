@@ -101,12 +101,8 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
   .section {
     flex-direction: column;
-    width: 90%;
   }
   .button__scroll-icon {
     margin-bottom: 2em;
