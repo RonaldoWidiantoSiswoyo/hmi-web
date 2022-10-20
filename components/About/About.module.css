@@ -15,7 +15,7 @@
   padding: 10px;
 }
 .about__left-section {
-  width: 50%;
+  width: 60%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
   padding: 1em 1em;
 }
 .about__right-section {
-  width: 50%;
+  width: 40%;
   height: auto;
   padding: 1em 3em;
   display: flex;
