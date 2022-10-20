@@ -7,7 +7,7 @@ import styles from "./About.module.css";
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 export default function About() {
   return (
-    <div className={styles.container} id="about">
+    <div className={styles["container__about"]} id="about">
       <div className={styles.section}>
         <div className={styles["about__left-section"]}>
           <Swiper

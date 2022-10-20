@@ -1,4 +1,4 @@
-.container {
+.container__about {
   width: 100%;
   height: auto;
   /* margin: 100px 0px; */
@@ -7,7 +7,7 @@
   align-items: center;
 }
 .section {
-  width: 100%;
+  width: 90%;
   height: auto;
   background-color: #111111;
   border-radius: 20px;
