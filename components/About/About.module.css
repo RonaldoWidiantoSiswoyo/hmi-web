@@ -39,14 +39,12 @@
   color: darkgray;
   font-size: 0.8rem;
 }
+.swiper__slide,
 .swiper {
   width: 100%;
   height: auto;
 }
-/* .swiper__slide {
-  width: 100%;
-  height: auto;
-} */
+
 .item__image {
   border-radius: 10px;
   width: 100%;

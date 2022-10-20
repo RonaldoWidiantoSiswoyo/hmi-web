@@ -93,7 +93,7 @@ a {
     font-size: 0.8rem;
   }
   .navbar {
-    margin-left: -1.25em;
+    /* margin-left: -1.25em; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
