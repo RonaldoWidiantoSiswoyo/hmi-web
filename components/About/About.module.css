@@ -1,6 +1,6 @@
 .container__about {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  /* height: auto; */
   /* margin: 100px 0px; */
   display: flex;
   justify-content: center;
