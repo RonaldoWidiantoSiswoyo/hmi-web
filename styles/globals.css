@@ -22,7 +22,10 @@ a {
 }
 /* ======= HEADER ======= */
 .navbar_container {
-  width: 60%;
+  width: 70%;
+}
+.navlink_container:hover {
+  cursor: pointer;
 }
 .navlink {
   display: none;
@@ -110,5 +113,24 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (max-width: 380px) {
+  .navbar {
+    width: 100%;
+    margin-left: -2.5em;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .navlink {
+    font-size: 1rem;
+  }
+  .navbar_container a {
+    font-size: 0.6rem;
+  }
+  .navbar_container {
+    width: 100%;
+    bottom: 50px;
+    height: 270px;
   }
 }

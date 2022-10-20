@@ -19,7 +19,7 @@ export default function Header() {
               <Link href="#home">
                 <div className="navlink_container">
                   <i className="uil uil-estate navlink"></i>
-                  <a>Home</a>
+                  <a className={styles["navlink__title"]}>Home</a>
                 </div>
               </Link>
             </li>
@@ -27,7 +27,7 @@ export default function Header() {
               <Link href="#about">
                 <div className="navlink_container">
                   <i className="uil uil-user-circle navlink"></i>
-                  <a>About</a>
+                  <a className={styles["navlink__title"]}>About</a>
                 </div>
               </Link>
             </li>
@@ -35,7 +35,7 @@ export default function Header() {
               <Link href="#event">
                 <div className="navlink_container">
                   <i className="uil uil-schedule navlink"></i>
-                  <a>Event</a>
+                  <a className={styles["navlink__title"]}>Event</a>
                 </div>
               </Link>
             </li>
@@ -43,7 +43,7 @@ export default function Header() {
               <Link href="#department">
                 <div className="navlink_container">
                   <i className="uil uil-layers-alt navlink"></i>
-                  <a>Department</a>
+                  <a className={styles["navlink__title"]}>Department</a>
                 </div>
               </Link>
             </li>
@@ -51,7 +51,7 @@ export default function Header() {
               <Link href="#familycare">
                 <div className="navlink_container">
                   <i className="uil uil-heart-alt navlink"></i>
-                  <a>Family Care</a>
+                  <a className={styles["navlink__title"]}>Family Care</a>
                 </div>
               </Link>
             </li>
@@ -59,7 +59,7 @@ export default function Header() {
               <Link href="#hmw">
                 <div className="navlink_container">
                   <i className="uil uil-music navlink"></i>
-                  <a>HMW</a>
+                  <a className={styles["navlink__title"]}>HMW</a>
                 </div>
               </Link>
             </li>
@@ -67,7 +67,7 @@ export default function Header() {
               <Link href="#ourstory">
                 <div className="navlink_container">
                   <i className="uil uil-history navlink"></i>
-                  <a>Our Story</a>
+                  <a className={styles["navlink__title"]}>Our Story</a>
                 </div>
               </Link>
             </li>
@@ -75,7 +75,7 @@ export default function Header() {
               <Link href="#prayerbox">
                 <div className="navlink_container">
                   <i className="uil uil-envelope-heart navlink"></i>
-                  <a>Prayer Box</a>
+                  <a className={styles["navlink__title"]}>Prayer Box</a>
                 </div>
               </Link>
             </li>
@@ -83,7 +83,7 @@ export default function Header() {
               <Link href="#contact">
                 <div className="navlink_container">
                   <i className="uil uil-phone navlink"></i>
-                  <a>Contact</a>
+                  <a className={styles["navlink__title"]}>Contact</a>
                 </div>
               </Link>
             </li>
