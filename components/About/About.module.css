@@ -52,7 +52,7 @@
 .about__button {
   font-weight: bold;
   color: rgb(233, 173, 83);
-  width: 500px;
+  /* width: 500px; */
   display: flex;
   justify-content: center;
   align-items: center;
