@@ -45,9 +45,11 @@
 }
 .swiper__slide {
   width: 100%;
+  height: auto;
 }
 .item__image {
   border-radius: 10px;
+  width: 100%;
 }
 .about__button {
   font-weight: bold;
