@@ -1,7 +1,6 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
+import SwiperCore, { Autoplay } from "swiper";
 import "swiper/css";
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./About.module.css";
 
 SwiperCore.use([Autoplay]);
@@ -29,8 +28,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm1.jpg"
                   alt="Foto HMI 1"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
               <SwiperSlide className={styles["swiper__slide"]}>
@@ -38,8 +35,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm2.jpg"
                   alt="Foto HMI 2"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
               <SwiperSlide className={styles["swiper__slide"]}>
@@ -47,8 +42,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm3.jpg"
                   alt="Foto HMI 3"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
               <SwiperSlide className={styles["swiper__slide"]}>
@@ -56,8 +49,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm4.jpg"
                   alt="Foto HMI 4"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
 
@@ -66,8 +57,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm6.jpg"
                   alt="Foto HMI 6"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
               <SwiperSlide className={styles["swiper__slide"]}>
@@ -75,8 +64,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm7.jpg"
                   alt="Foto HMI 7"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
               <SwiperSlide className={styles["swiper__slide"]}>
@@ -84,8 +71,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm8.jpg"
                   alt="Foto HMI 8"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
               <SwiperSlide className={styles["swiper__slide"]}>
@@ -93,8 +78,6 @@ export default function About() {
                   className={styles["item__image"]}
                   src="/abouthm9.jpg"
                   alt="Foto HMI 9"
-                  // width={700}
-                  // height={450}
                 />
               </SwiperSlide>
             </Swiper>
