@@ -44,10 +44,18 @@ export default function Footer() {
               kebangkitan rohani anak muda hingga saat ini.
             </p>
             <div className={styles["footer__social-media"]}>
-              <i className="fa-brands fa-whatsapp"></i>
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-tiktok"></i>
-              <i className="fa-brands fa-youtube"></i>
+              <a href="https://wa.me/087764317143">
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://www.instagram.com/historymakerimpact">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.tiktok.com/@historymakerimpact?is_from_webapp=1&sender_device=pc">
+                <i className="fa-brands fa-tiktok"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCcfEP6BGCc-ctPpSeA7uOng">
+                <i className="fa-brands fa-youtube"></i>
+              </a>
             </div>
           </div>
         </div>
