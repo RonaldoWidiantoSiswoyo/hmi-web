@@ -59,6 +59,20 @@ a {
     background: linear-gradient(to bottom, #191919, #212121);
   }
 }
+@media screen and (max-width: 980px) {
+  .navlink_container a {
+    font-size: 0.7rem;
+  }
+  .navbar_item {
+    padding: 0px 10px;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  /* .image {
+    width: 25%;
+  } */
+}
 @media screen and (max-width: 768px) {
   .navlink {
     display: block;

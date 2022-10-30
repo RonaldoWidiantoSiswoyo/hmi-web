@@ -99,6 +99,31 @@
     transform: translateY(-3px);
   }
 }
+@media screen and (max-width: 980px) {
+  .right__section {
+    padding: 0px 50px;
+  }
+  .right__section-title {
+    font-size: 2.5rem;
+  }
+  .right__section-description {
+    font-size: 0.8rem;
+  }
+  .community__image {
+    width: 350px;
+  }
+  .button__join {
+    font-size: 0.8rem;
+    width: 130px;
+  }
+  .button__scroll {
+    width: 150px;
+    border: none;
+  }
+  .button__scroll-desc {
+    font-size: 0.8rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .container {
     margin-top: 0;

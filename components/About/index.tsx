@@ -8,125 +8,147 @@ SwiperCore.use([Autoplay]);
 export default function About() {
   return (
     <div className={styles["container__about"]} id="about">
-      <div className={styles.section}>
-        <div className={styles["about__left-section"]}>
-          <Swiper
-            className={styles.swiper}
-            spaceBetween={50}
-            slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-            loop={true}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-          >
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm1.jpg"
-                alt="Foto HMI 1"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm2.jpg"
-                alt="Foto HMI 2"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm3.jpg"
-                alt="Foto HMI 3"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm4.jpg"
-                alt="Foto HMI 4"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
+      <div className={styles.about}>
+        <h1 className={styles["about__title"]}>About Us</h1>
+        <div className={styles.section}>
+          <div className={styles["about__left-section"]}>
+            <Swiper
+              className={styles.swiper}
+              spaceBetween={50}
+              slidesPerView={1}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+              loop={true}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+            >
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm1.jpg"
+                  alt="Foto HMI 1"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm2.jpg"
+                  alt="Foto HMI 2"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm3.jpg"
+                  alt="Foto HMI 3"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm4.jpg"
+                  alt="Foto HMI 4"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
 
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm6.jpg"
-                alt="Foto HMI 6"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm7.jpg"
-                alt="Foto HMI 7"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm8.jpg"
-                alt="Foto HMI 8"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={styles["swiper__slide"]}>
-              <img
-                className={styles["item__image"]}
-                src="/abouthm9.jpg"
-                alt="Foto HMI 9"
-                // width={700}
-                // height={450}
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
-        <div className={styles["about__right-section"]}>
-          <h1 className={styles["about__title"]}>About Us</h1>
-          <div>
-            <h4>Siapa kami?</h4>
-            <p className={styles["about__description"]}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
-              perspiciatis qui vero esse harum ab porro delectus officiis
-              quibusdam voluptatum, pariatur quod perferendis commodi eveniet
-              quo dolorum at dolores non.
-            </p>
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm6.jpg"
+                  alt="Foto HMI 6"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm7.jpg"
+                  alt="Foto HMI 7"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm8.jpg"
+                  alt="Foto HMI 8"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
+              <SwiperSlide className={styles["swiper__slide"]}>
+                <img
+                  className={styles["item__image"]}
+                  src="/abouthm9.jpg"
+                  alt="Foto HMI 9"
+                  // width={700}
+                  // height={450}
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
-          <div>
-            <h4>Apa yang kami lakukan?</h4>
-            <p className={styles["about__description"]}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloremque dolore nobis, illo officia veritatis rem, impedit
-              repellendus eligendi, corporis officiis vero laborum? Modi a
-              tenetur ex perferendis facere sapiente. Sit.
-            </p>
+          <div className={styles["about__right-section"]}>
+            <div className={styles["section__desc"]}>
+              <div className={styles["about__sub"]}>
+                <h4>Siapa kami?</h4>
+                <p className={styles["about__description"]}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quia, perspiciatis qui vero esse harum ab porro delectus
+                  officiis quibusdam voluptatum, pariatur quod perferendis
+                  commodi eveniet quo dolorum at dolores non.
+                </p>
+              </div>
+              <div className={styles["about__sub"]}>
+                <h4>Apa yang kami lakukan?</h4>
+                <p className={styles["about__description"]}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Doloremque dolore nobis, illo officia veritatis rem, impedit
+                  repellendus eligendi, corporis officiis vero laborum? Modi a
+                  tenetur ex perferendis facere sapiente. Sit.
+                </p>
+              </div>
+              <div className={styles["about__sub"]}>
+                <h4>Apa yang kami lakukan?</h4>
+                <p className={styles["about__description"]}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Doloremque dolore nobis, illo officia veritatis rem, impedit
+                  repellendus eligendi, corporis officiis vero laborum? Modi a
+                  tenetur ex perferendis facere sapiente. Sit.
+                </p>
+              </div>
+              <div className={styles["about__sub"]}>
+                <h4>Apa yang kami lakukan?</h4>
+                <p className={styles["about__description"]}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Doloremque dolore nobis, illo officia veritatis rem, impedit
+                  repellendus eligendi, corporis officiis vero laborum? Modi a
+                  tenetur ex perferendis facere sapiente. Sit.
+                </p>
+              </div>
+              {/* <div className={styles["about__button"]}>
+              <a href="#event" className={styles["button__scroll-desc"]}>
+                Want to know more about Our Event?
+                <br />
+                Click button below!
+              </a>
+            </div> */}
+              {/* <a href="#" className={styles["button__scroll-icon"]}>
+              More about us
+            </a> */}
+            </div>
           </div>
-          <div className={styles["about__button"]}>
-            <a href="#event" className={styles["button__scroll-desc"]}>
-              Want to know more about Our Event?
-              <br />
-              Click button below!
-            </a>
-          </div>
-          <a href="#" className={styles["button__scroll-icon"]}>
-            Our Event
-          </a>
         </div>
       </div>
     </div>
