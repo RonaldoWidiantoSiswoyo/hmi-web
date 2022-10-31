@@ -53,6 +53,9 @@ export default function Footer() {
               <a href="https://www.tiktok.com/@historymakerimpact?is_from_webapp=1&sender_device=pc">
                 <i className="fa-brands fa-tiktok"></i>
               </a>
+              <a href="https://open.spotify.com/track/6NsGUb4Uyxmid7GSXGYuSh?si=dbLpujNORpW3oe2-TURNJQ">
+                <i class="fa-brands fa-spotify"></i>
+              </a>
               <a href="https://www.youtube.com/channel/UCcfEP6BGCc-ctPpSeA7uOng">
                 <i className="fa-brands fa-youtube"></i>
               </a>

@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   background-color: #111;
-  margin-bottom: 60px;
 }
 .footer,
 .footer__first,
@@ -76,6 +75,9 @@
   .footer__location-title {
     font-size: 1rem;
   }
+  .footer {
+    margin-bottom: 60px;
+  }
   .gmaps {
     width: 200px;
     height: 120px;
@@ -124,5 +126,14 @@
   }
   .footer__second {
     font-size: 9px;
+  }
+  .footer__address {
+    margin-bottom: -10px;
+  }
+  .footer__social-description {
+    margin-top: -10px;
+  }
+  .footer__social-media {
+    margin-top: 10px;
   }
 }
