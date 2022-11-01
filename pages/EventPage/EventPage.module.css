@@ -7,8 +7,9 @@
 }
 .eventpage__container {
   width: 75%;
-  padding: 3em 0em;
+  padding-bottom: 3em;
   display: flex;
+  margin-top: -2em;
 }
 .left__section {
   width: 70%;
