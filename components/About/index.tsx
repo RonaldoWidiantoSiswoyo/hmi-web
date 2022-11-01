@@ -120,16 +120,6 @@ export default function About() {
                   tenetur ex perferendis facere sapiente. Sit.
                 </p>
               </div>
-              {/* <div className={styles["about__button"]}>
-              <a href="#event" className={styles["button__scroll-desc"]}>
-                Want to know more about Our Event?
-                <br />
-                Click button below!
-              </a>
-            </div> */}
-              {/* <a href="#" className={styles["button__scroll-icon"]}>
-              More about us
-            </a> */}
             </div>
           </div>
         </div>

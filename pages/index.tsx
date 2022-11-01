@@ -4,6 +4,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import MyHome from "../components/Home";
+import EventPage from "./EventPage/eventpage";
 
 const Home: NextPage = () => {
   return (

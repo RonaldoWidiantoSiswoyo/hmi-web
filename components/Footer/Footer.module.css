@@ -64,6 +64,10 @@
   color: rgb(206, 155, 18);
   cursor: pointer;
 }
+.footer__social-description {
+  font-size: 14px;
+  margin-top: -10px;
+}
 .footer__second {
   display: flex;
   align-items: center;

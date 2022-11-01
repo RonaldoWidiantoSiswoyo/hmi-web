@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -44,21 +45,31 @@ export default function Footer() {
               kebangkitan rohani anak muda hingga saat ini.
             </p>
             <div className={styles["footer__social-media"]}>
-              <a href="https://wa.me/087764317143">
-                <i className="fa-brands fa-whatsapp"></i>
-              </a>
-              <a href="https://www.instagram.com/historymakerimpact">
-                <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a href="https://www.tiktok.com/@historymakerimpact?is_from_webapp=1&sender_device=pc">
-                <i className="fa-brands fa-tiktok"></i>
-              </a>
-              <a href="https://open.spotify.com/track/6NsGUb4Uyxmid7GSXGYuSh?si=dbLpujNORpW3oe2-TURNJQ">
-                <i className="fa-brands fa-spotify"></i>
-              </a>
-              <a href="https://www.youtube.com/channel/UCcfEP6BGCc-ctPpSeA7uOng">
-                <i className="fa-brands fa-youtube"></i>
-              </a>
+              <Link href="https://wa.me/087764317143">
+                <a>
+                  <i className="fa-brands fa-whatsapp"></i>
+                </a>
+              </Link>
+              <Link href="https://www.instagram.com/historymakerimpact">
+                <a>
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+              </Link>
+              <Link href="https://www.tiktok.com/@historymakerimpact?is_from_webapp=1&sender_device=pc">
+                <a>
+                  <i className="fa-brands fa-tiktok"></i>
+                </a>
+              </Link>
+              <Link href="https://open.spotify.com/track/6NsGUb4Uyxmid7GSXGYuSh?si=dbLpujNORpW3oe2-TURNJQ">
+                <a>
+                  <i className="fa-brands fa-spotify"></i>
+                </a>
+              </Link>
+              <Link href="https://www.youtube.com/channel/UCcfEP6BGCc-ctPpSeA7uOng">
+                <a>
+                  <i className="fa-brands fa-youtube"></i>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
