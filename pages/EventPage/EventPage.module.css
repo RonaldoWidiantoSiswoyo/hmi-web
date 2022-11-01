@@ -7,9 +7,8 @@
 }
 .eventpage__container {
   width: 75%;
-  padding-bottom: 3em;
+  padding: 3em 0em;
   display: flex;
-  margin-top: -2em;
 }
 .left__section {
   width: 70%;
@@ -116,6 +115,7 @@
   .eventpage__container {
     flex-direction: column;
     width: 85%;
+    margin-top: -2em;
   }
   .eventpage__description-caption p {
     font-size: 12px;
