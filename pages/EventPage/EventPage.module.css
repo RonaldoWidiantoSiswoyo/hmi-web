@@ -115,6 +115,7 @@
   .eventpage__container {
     flex-direction: column;
     width: 85%;
+    padding: 0em;
     margin-top: -2em;
   }
   .eventpage__description-caption p {
