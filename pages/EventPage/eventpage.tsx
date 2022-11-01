@@ -33,7 +33,7 @@ export default function EventPage() {
               <div className={styles["eventpage__description-title"]}>
                 <h2>Deskripsi</h2>
               </div>
-              <div className="eventpage__description-caption">
+              <div className={styles["eventpage__description-caption"]}>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                   dicta debitis natus quae! Ut nulla voluptate aspernatur qui
@@ -42,35 +42,35 @@ export default function EventPage() {
                   fugit culpa ratione sed sit dolores laborum vitae.
                 </p>
                 <h3>Syarat dan Ketentuan</h3>
-                <h4>1. Syarat dan Ketentuan</h4>
+                <h5>1. Syarat dan Ketentuan</h5>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias eaque, ut ab hic distinctio esse facere iure debitis
                   officiis molestiae explicabo atque maxime aspernatur
                   blanditiis, repellendus ipsam officia facilis laborum!
                 </p>
-                <h4>2. Syarat dan Ketentuan</h4>
+                <h5>2. Syarat dan Ketentuan</h5>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias eaque, ut ab hic distinctio esse facere iure debitis
                   officiis molestiae explicabo atque maxime aspernatur
                   blanditiis, repellendus ipsam officia facilis laborum!
                 </p>
-                <h4>3. Syarat dan Ketentuan</h4>
+                <h5>3. Syarat dan Ketentuan</h5>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias eaque, ut ab hic distinctio esse facere iure debitis
                   officiis molestiae explicabo atque maxime aspernatur
                   blanditiis, repellendus ipsam officia facilis laborum!
                 </p>
-                <h4>4. Syarat dan Ketentuan</h4>
+                <h5>4. Syarat dan Ketentuan</h5>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias eaque, ut ab hic distinctio esse facere iure debitis
                   officiis molestiae explicabo atque maxime aspernatur
                   blanditiis, repellendus ipsam officia facilis laborum!
                 </p>
-                <h4>5. Syarat dan Ketentuan</h4>
+                <h5>5. Syarat dan Ketentuan</h5>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias eaque, ut ab hic distinctio esse facere iure debitis
