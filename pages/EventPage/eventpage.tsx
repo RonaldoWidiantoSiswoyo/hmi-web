@@ -16,6 +16,10 @@ export default function EventPage() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         />
+        <link
+          rel="stylesheet"
+          href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+        ></link>
       </Head>
       <Header />
       <div className={styles.eventpage}>
@@ -99,6 +103,7 @@ export default function EventPage() {
                   <p>JKI Higher Than Ever, Semarang</p>
                 </div>
               </div>
+
               <div className={styles["organizer__event"]}>
                 <div className={styles["organizer__event-logo"]}>
                   <img src="/hm.png" alt="logo HMI" />

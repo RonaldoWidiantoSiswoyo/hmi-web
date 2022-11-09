@@ -4,6 +4,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import MyHome from "../components/Home";
+import Event from "../components/Event";
 import EventPage from "./EventPage/eventpage";
 
 const Home: NextPage = () => {
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
       <Header />
       <MyHome />
       <About />
+      <Event />
       <Footer />
     </div>
   );
