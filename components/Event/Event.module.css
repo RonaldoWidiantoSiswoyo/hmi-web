@@ -96,6 +96,7 @@
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+  font-weight: 500;
 }
 .form__button i {
   font-size: 1.5rem;
