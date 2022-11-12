@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Event.module.css";
 import Link from "next/link";
-// import "swiper/css";
+import "swiper/css";
 
 export default function Event() {
   return (
