@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import About from "../components/About";
+import Event from "../components/Event";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import MyHome from "../components/Home";
-import Event from "../components/Event";
-import EventPage from "./EventPage/eventpage";
 
 const Home: NextPage = () => {
   return (
