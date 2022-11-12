@@ -123,7 +123,7 @@ export default function EventPage() {
                     <h5>FREE</h5>
                   </div>
                   <div className={styles["button__register"]}>
-                    <Link href="#">
+                    <Link href="https://s.id/heroes2022">
                       <a>REGISTER</a>
                     </Link>
                   </div>
