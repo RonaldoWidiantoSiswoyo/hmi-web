@@ -33,12 +33,11 @@ export default function EventPage() {
                 </div>
                 <div className={styles["eventpage__description-caption"]}>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto dicta debitis natus quae! Ut nulla voluptate
-                    aspernatur qui quas expedita asperiores vitae nisi. Vel
-                    necessitatibus, corporis ipsum expedita accusantium alias
-                    assumenda architecto fugit culpa ratione sed sit dolores
-                    laborum vitae.
+                    Milenial Service HEROES adalah acara kerohanian untuk anak
+                    muda yang diselenggarkan oleh Komunitas Rohani HistoryMaker
+                    Impact. Penasaran dengan tema Milenial Service kali ini?
+                    Langsung aja daftarkan dirimu dan siapkan diri untuk
+                    gebrakan luar biasa tanggal 16 November 2022.
                   </p>
                   <h3>Syarat dan Ketentuan</h3>
                   <h5>1. Free Tickets.</h5>
@@ -107,8 +106,8 @@ export default function EventPage() {
                   <div className={styles["ticket__logo"]}>
                     <i className="fa-solid fa-ticket"></i>
                     <p>
-                      Kamu belum terdaftar. Silakan daftar terlebih dahulu
-                      dengan klik tombol REGISTER dibawah.
+                      Jika kamu belum mendaftarkan diri. Silakan daftar terlebih
+                      dahulu dengan klik tombol REGISTER dibawah.
                     </p>
                   </div>
                   <div className={styles["htm__event"]}>
