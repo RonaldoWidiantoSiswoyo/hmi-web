@@ -41,41 +41,34 @@ export default function EventPage() {
                     laborum vitae.
                   </p>
                   <h3>Syarat dan Ketentuan</h3>
-                  <h5>1. Dilarang membawa benda tajam</h5>
+                  <h5>1. Free Tickets.</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestias eaque, ut ab hic distinctio esse facere iure
-                    debitis officiis molestiae explicabo atque maxime aspernatur
-                    blanditiis, repellendus ipsam officia facilis laborum!
+                    Acara ini diselenggarkan gratis tanpa dipungut biaya
+                    sepersenpun.
                   </p>
-                  <h5>2. Syarat dan Ketentuan</h5>
+                  <h5>
+                    2. All Participants under 16 y.o must have received Covid-19
+                    Vaccine dose 2.
+                  </h5>
+                  <p>Semua peserta dibawah 16 tahun wajib sudah Vaksin ke-2.</p>
+                  <h5>
+                    3. All Participants above 16 y.o must have received Covid-19
+                    Vaccine dose 3 (Booster).
+                  </h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestias eaque, ut ab hic distinctio esse facere iure
-                    debitis officiis molestiae explicabo atque maxime aspernatur
-                    blanditiis, repellendus ipsam officia facilis laborum!
+                    Semua peserta 16 tahun keatas sudah melakukan Vaksin
+                    Covid-19 dosis 3 (Booster).
                   </p>
-                  <h5>3. Syarat dan Ketentuan</h5>
+                  <h5>
+                    4.Each Participant is responsible for his/her own
+                    belongings.
+                  </h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestias eaque, ut ab hic distinctio esse facere iure
-                    debitis officiis molestiae explicabo atque maxime aspernatur
-                    blanditiis, repellendus ipsam officia facilis laborum!
+                    Setiap peserta bertanggung jawab atas barang bawaan
+                    masing-masing
                   </p>
-                  <h5>4. Syarat dan Ketentuan</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestias eaque, ut ab hic distinctio esse facere iure
-                    debitis officiis molestiae explicabo atque maxime aspernatur
-                    blanditiis, repellendus ipsam officia facilis laborum!
-                  </p>
-                  <h5>5. Syarat dan Ketentuan</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestias eaque, ut ab hic distinctio esse facere iure
-                    debitis officiis molestiae explicabo atque maxime aspernatur
-                    blanditiis, repellendus ipsam officia facilis laborum!
-                  </p>
+                  <h5>5. NO WEAPON & NO DRUGS.</h5>
+                  <p>DILARANG MEMBAWA SENJATA ATAU OBAT-OBATAN TERLARANG.</p>
                 </div>
               </div>
             </div>

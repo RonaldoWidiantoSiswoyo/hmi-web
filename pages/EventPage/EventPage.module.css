@@ -13,6 +13,9 @@
 .left__section {
   width: 65%;
 }
+.eventpage__description {
+  margin-top: 30px;
+}
 .eventpage__image {
   display: flex;
   justify-content: center;
