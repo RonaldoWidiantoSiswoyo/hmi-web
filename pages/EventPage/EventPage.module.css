@@ -20,6 +20,7 @@
 }
 .eventpage__image img {
   width: 400px;
+  padding: 0 15px;
 }
 .eventpage__description-title {
   width: auto;
