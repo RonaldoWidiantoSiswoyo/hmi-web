@@ -29,7 +29,7 @@ export default function Event() {
                 </p>
                 <Link href="/EventPage/eventpage">
                   <a className={styles["form__button"]}>
-                    Kepoin yuk!<i className="uil uil-angle-right-b"></i>
+                    Read More<i className="uil uil-angle-right-b"></i>
                   </a>
                 </Link>
               </div>
