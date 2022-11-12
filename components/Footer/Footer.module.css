@@ -68,6 +68,7 @@
   font-size: 14px;
   margin-top: -10px;
 }
+
 .footer__second {
   display: flex;
   align-items: center;
@@ -78,9 +79,6 @@
 @media screen and (max-width: 960px) {
   .footer__location-title {
     font-size: 1rem;
-  }
-  .footer {
-    margin-bottom: 60px;
   }
   .gmaps {
     width: 200px;
@@ -118,6 +116,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .footer {
+    margin-bottom: 60px;
+  }
   .footer__first {
     flex-direction: column;
     align-items: center;

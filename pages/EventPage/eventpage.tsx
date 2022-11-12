@@ -25,12 +25,7 @@ export default function EventPage() {
           <div className={styles["eventpage__container"]}>
             <div className={styles["left__section"]}>
               <div className={styles["eventpage__image"]}>
-                <Image
-                  src="/bangkitlah.png"
-                  width="700"
-                  height="200"
-                  alt="logo bangkitlah"
-                />
+                <img src="/heroes.jpg" alt="logo heroes" />
               </div>
               <div className={styles["eventpage__description"]}>
                 <div className={styles["eventpage__description-title"]}>
@@ -46,7 +41,7 @@ export default function EventPage() {
                     laborum vitae.
                   </p>
                   <h3>Syarat dan Ketentuan</h3>
-                  <h5>1. Syarat dan Ketentuan</h5>
+                  <h5>1. Dilarang membawa benda tajam</h5>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias eaque, ut ab hic distinctio esse facere iure

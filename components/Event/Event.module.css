@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-/* .swiper-container {
-  width: 300px;
-} */
+
 .container {
   width: 100%;
   margin: 0;
@@ -20,6 +18,9 @@
 .left {
   width: 50%;
 }
+.left p {
+  font-size: 14px;
+}
 .right {
   width: 50%;
   height: auto;
@@ -29,20 +30,19 @@
 }
 .box {
   position: relative;
-  width: 300px;
-  height: 550px;
+  width: 600px;
+  height: 300px;
   background: #1c1c1c;
   border-radius: 10px;
   overflow: hidden;
-  /* margin-right: 2rem; */
 }
 .box::before {
   content: "";
   position: absolute;
   top: -50%;
   left: -50%;
-  width: 300px;
-  height: 550px;
+  width: 600px;
+  height: 300px;
   background: linear-gradient(90deg, transparent, transparent, #dc43f0);
   animation: animate 3s linear infinite;
   transform-origin: bottom right;
@@ -52,8 +52,8 @@
   position: absolute;
   top: -50%;
   left: -50%;
-  width: 300px;
-  height: 550px;
+  width: 600px;
+  height: 400px;
   background: linear-gradient(90deg, transparent, transparent, #f0a843);
   animation: animate 3s linear infinite;
   transform-origin: bottom right;
@@ -67,15 +67,20 @@
   z-index: 10;
   display: flex;
   align-items: center;
-  flex-direction: column;
   height: auto;
 }
 .form img {
-  border-radius: 10px 10px 0px 0px;
-  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+  width: 295px;
   text-align: center;
 }
-
+.form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
 .form__description {
   margin-top: -0.5rem;
   margin-bottom: 1.5rem;
@@ -109,7 +114,32 @@
     transform: rotate(360deg);
   }
 }
-
+@media screen and (max-width: 980px) {
+  .form img {
+    width: 215px;
+  }
+  .box,
+  .box::after,
+  .box::before {
+    height: 220px;
+  }
+  .left {
+    padding: 10px;
+  }
+  .left p {
+    font-size: 12px;
+  }
+  .form__description {
+    font-size: 9px;
+  }
+  .form__button {
+    font-size: 12px;
+    padding: 3px 10px;
+  }
+  .form__title {
+    margin-top: -0.5rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .event {
     flex-direction: column;
@@ -117,8 +147,42 @@
   .box {
     margin-right: 0;
   }
+  .left {
+    padding: 0;
+  }
+  .right {
+    margin-top: 30px;
+  }
   .left,
   .right {
     width: 100%;
+  }
+  .form img {
+    width: 395px;
+    border-radius: 10px 10px 0 0;
+  }
+  .box,
+  .box::after,
+  .box::before {
+    width: 400px;
+    height: 590px;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .form__title {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form img {
+    width: 345px;
+    border-radius: 10px 10px 0 0;
+  }
+  .box,
+  .box::after,
+  .box::before {
+    width: 350px;
+    height: 550px;
   }
 }

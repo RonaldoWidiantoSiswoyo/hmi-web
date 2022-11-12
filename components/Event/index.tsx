@@ -8,26 +8,31 @@ export default function Event() {
         <div className={styles.left}>
           <h1>Event HMI</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            unde.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt eius
+            deserunt possimus, aspernatur vel quia totam magni repellendus
+            itaque. Deleniti magni vero autem alias iste cupiditate accusantium
+            blanditiis facere nesciunt ut inventore debitis, nihil odit quidem
+            tempora quaerat culpa consequatur?
           </p>
         </div>
         <div className={styles.right}>
           <div className={styles.box}>
             <div className={styles.form}>
               <img src="/heroes.jpg" alt="event bangkitlah" />
-              <h2 className={styles["form__title"]}>HEROES</h2>
-              <p className={styles["form__description"]}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
-                dolores qui perspiciatis odit sit corporis! Iure explicabo omnis
-                quam ea, repellat adipisci placeat qui, veritatis ipsam sequi id
-                eos
-              </p>
-              <Link href="/EventPage/eventpage">
-                <a className={styles["form__button"]}>
-                  Read more<i className="uil uil-angle-right-b"></i>
-                </a>
-              </Link>
+              <div>
+                <h2 className={styles["form__title"]}>HEROES</h2>
+                <p className={styles["form__description"]}>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+                  dolores qui perspiciatis odit sit corporis! Iure explicabo
+                  omnis quam ea, repellat adipisci placeat qui, veritatis ipsam
+                  sequi id eos
+                </p>
+                <Link href="/EventPage/eventpage">
+                  <a className={styles["form__button"]}>
+                    Kepoin yuk!<i className="uil uil-angle-right-b"></i>
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
