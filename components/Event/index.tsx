@@ -16,7 +16,7 @@ export default function Event() {
         </div>
         <div className={styles.right}>
           <Swiper
-            spaceBetween={35}
+            spaceBetween={25}
             slidesPerView={2}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}

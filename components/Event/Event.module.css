@@ -24,6 +24,8 @@
   width: 50%;
   height: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box {
   position: relative;
@@ -71,7 +73,6 @@
 .form img {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
-
   text-align: center;
 }
 
@@ -114,6 +115,9 @@
   .event {
     flex-direction: column;
     /* width: 100%; */
+  }
+  .box {
+    margin-right: 0;
   }
   .left,
   .right {
