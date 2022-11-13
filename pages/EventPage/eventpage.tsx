@@ -74,7 +74,7 @@ export default function EventPage() {
             <div className={styles["right__section"]}>
               <div className={styles["rightsection__atas"]}>
                 <div className={styles["title__event"]}>
-                  <h3>Millenial Service : BANGKITLAH</h3>
+                  <h3>Millenial Service : HEROES</h3>
                 </div>
                 <div className={styles["schedule__event"]}>
                   <div className={styles["date__event"]}>

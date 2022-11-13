@@ -3,7 +3,7 @@
 .container {
   width: 100%;
   margin: 0;
-  padding: 2em 0em;
+  padding: 12em 0em;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -124,6 +124,7 @@
   .box::after,
   .box::before {
     height: 220px;
+    width: 600px;
   }
   .left {
     padding: 10px;
@@ -143,6 +144,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .container {
+    padding-top: 0;
+    padding-bottom: 2em;
+  }
   .event {
     flex-direction: column;
   }

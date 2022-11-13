@@ -15,6 +15,7 @@ export default function Event() {
             tempora quaerat culpa consequatur?
           </p>
         </div>
+
         <div className={styles.right}>
           <div className={styles.box}>
             <div className={styles.form}>
