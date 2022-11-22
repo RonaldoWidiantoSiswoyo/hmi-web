@@ -24,6 +24,7 @@ const Department = () => {
               <div className={styles.hastag}>
                 <p className={styles["hastag__caption"]}>Fotografi</p>
                 <p className={styles["hastag__caption"]}>Videografi</p>
+                <p className={styles["hastag__caption"]}>Editing</p>
               </div>
               <h3 className={styles["card__title"]}>Multimedia</h3>
               <p className={styles["card__description"]}>
@@ -37,10 +38,12 @@ const Department = () => {
             <div className={styles.card}>
               <img src="dancer.jpg" alt="" />
               <div className={styles.hastag}>
-                <p className={styles["hastag__caption"]}>Fotografi</p>
-                <p className={styles["hastag__caption"]}>Videografi</p>
+                <p className={styles["hastag__caption"]}>Gitar</p>
+                <p className={styles["hastag__caption"]}>Keyboard</p>
+                <p className={styles["hastag__caption"]}>Drum</p>
+                <p className={styles["hastag__caption"]}>Bass</p>
               </div>
-              <h3 className={styles["card__title"]}>Multimedia</h3>
+              <h3 className={styles["card__title"]}>Musik</h3>
               <p className={styles["card__description"]}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Perferendis incidunt deleniti qui repudiandae
@@ -52,10 +55,11 @@ const Department = () => {
             <div className={styles.card}>
               <img src="dancer.jpg" alt="" />
               <div className={styles.hastag}>
-                <p className={styles["hastag__caption"]}>Fotografi</p>
-                <p className={styles["hastag__caption"]}>Videografi</p>
+                <p className={styles["hastag__caption"]}>Kompak</p>
+                <p className={styles["hastag__caption"]}>Kebersamaan</p>
+                <p className={styles["hastag__caption"]}>Sukacita</p>
               </div>
-              <h3 className={styles["card__title"]}>Multimedia</h3>
+              <h3 className={styles["card__title"]}>Usher</h3>
               <p className={styles["card__description"]}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Perferendis incidunt deleniti qui repudiandae
@@ -67,10 +71,10 @@ const Department = () => {
             <div className={styles.card}>
               <img src="dancer.jpg" alt="" />
               <div className={styles.hastag}>
-                <p className={styles["hastag__caption"]}>Fotografi</p>
-                <p className={styles["hastag__caption"]}>Videografi</p>
+                <p className={styles["hastag__caption"]}>Menari</p>
+                <p className={styles["hastag__caption"]}>Tertawa</p>
               </div>
-              <h3 className={styles["card__title"]}>Multimedia</h3>
+              <h3 className={styles["card__title"]}>Dance</h3>
               <p className={styles["card__description"]}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Perferendis incidunt deleniti qui repudiandae
