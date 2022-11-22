@@ -4,7 +4,7 @@ import styles from "./Department.module.css";
 const Department = () => {
   return (
     <div>
-      <div className={styles.container}>
+      <div className={styles.container} id="department">
         <div className={styles.wrapper}>
           <div className={styles["first__section"]}>
             <h1>Department</h1>
