@@ -19,9 +19,9 @@ export default function Event() {
         <div className={styles.right}>
           <div className={styles.box}>
             <div className={styles.form}>
-              <img src="/januari.jpg" alt="event bangkitlah" />
+              <img src="/januari.jpg" alt="event januari" />
               <div>
-                <h2 className={styles["form__title"]}>HEROES</h2>
+                <h2 className={styles["form__title"]}>JANUARI</h2>
                 <p className={styles["form__description"]}>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
                   dolores qui perspiciatis odit sit corporis! Iure explicabo

@@ -25,7 +25,7 @@ export default function EventPage() {
           <div className={styles["eventpage__container"]}>
             <div className={styles["left__section"]}>
               <div className={styles["eventpage__image"]}>
-                <img src="/januari.jpg" alt="logo heroes" />
+                <img src="/januari.jpg" alt="logo januari" />
               </div>
               <div className={styles["eventpage__description"]}>
                 <div className={styles["eventpage__description-title"]}>
@@ -33,7 +33,7 @@ export default function EventPage() {
                 </div>
                 <div className={styles["eventpage__description-caption"]}>
                   <p>
-                    Milenial Service HEROES adalah acara kerohanian untuk anak
+                    Milenial Service JANUARI adalah acara kerohanian untuk anak
                     muda yang diselenggarkan oleh Komunitas Rohani HistoryMaker
                     Impact. Penasaran dengan tema Milenial Service kali ini?
                     Langsung aja daftarkan dirimu dan siapkan diri untuk
