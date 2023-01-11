@@ -77,7 +77,7 @@ const Department = () => {
               <h3 className={styles["card__title"]}>Dance</h3>
               <p className={styles["card__description"]}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Perferendis incidunt deleniti qui repudiandae
+                Perferendis incidunt deleniti quii repudiandae
               </p>
               <Link href="">
                 <a className={styles["card__button"]}>Join Us</a>
