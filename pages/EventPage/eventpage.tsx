@@ -25,7 +25,7 @@ export default function EventPage() {
           <div className={styles["eventpage__container"]}>
             <div className={styles["left__section"]}>
               <div className={styles["eventpage__image"]}>
-                <img src="/heroes.jpg" alt="logo heroes" />
+                <img src="/januari.jpg" alt="logo heroes" />
               </div>
               <div className={styles["eventpage__description"]}>
                 <div className={styles["eventpage__description-title"]}>
@@ -37,9 +37,9 @@ export default function EventPage() {
                     muda yang diselenggarkan oleh Komunitas Rohani HistoryMaker
                     Impact. Penasaran dengan tema Milenial Service kali ini?
                     Langsung aja daftarkan dirimu dan siapkan diri untuk
-                    gebrakan luar biasa tanggal 16 November 2022.
+                    gebrakan luar biasa tanggal 25 Januari 2023.
                   </p>
-                  <h3>Syarat dan Ketentuan</h3>
+                  {/* <h3>Syarat dan Ketentuan</h3>
                   <h5>1. Free Tickets.</h5>
                   <p>
                     Acara ini diselenggarkan gratis tanpa dipungut biaya
@@ -67,19 +67,19 @@ export default function EventPage() {
                     masing-masing
                   </p>
                   <h5>5. NO WEAPON & NO DRUGS.</h5>
-                  <p>DILARANG MEMBAWA SENJATA ATAU OBAT-OBATAN TERLARANG.</p>
+                  <p>DILARANG MEMBAWA SENJATA ATAU OBAT-OBATAN TERLARANG.</p> */}
                 </div>
               </div>
             </div>
             <div className={styles["right__section"]}>
               <div className={styles["rightsection__atas"]}>
                 <div className={styles["title__event"]}>
-                  <h3>Millenial Service : HEROES</h3>
+                  <h3>Millenial Service : JANUARI</h3>
                 </div>
                 <div className={styles["schedule__event"]}>
                   <div className={styles["date__event"]}>
                     <i className="fa-solid fa-calendar-days"></i>
-                    <p>Rabu, 16 November 2022</p>
+                    <p>Rabu, 25 Januari 2023</p>
                   </div>
                   <div className={styles["time__event"]}>
                     <i className="fa-solid fa-clock"></i>
@@ -115,7 +115,7 @@ export default function EventPage() {
                     <h5>FREE</h5>
                   </div>
                   <div className={styles["button__register"]}>
-                    <Link href="https://s.id/heroes2022">
+                    <Link href="https://bit.ly/daftarMSjanuari">
                       <a>REGISTER</a>
                     </Link>
                   </div>

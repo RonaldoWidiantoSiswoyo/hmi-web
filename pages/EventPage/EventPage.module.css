@@ -138,6 +138,9 @@
     margin-top: -2em;
     gap: 0;
   }
+  .eventpage__image img {
+    border-radius: 10px;
+  }
   .eventpage__description-title {
     padding: 0;
     border: none;

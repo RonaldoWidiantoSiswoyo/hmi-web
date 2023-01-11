@@ -71,8 +71,8 @@ const Department = () => {
             <div className={styles.card}>
               <img src="dancer.jpg" alt="" />
               <div className={styles.hastag}>
-                <p className={styles["hastag__caption"]}>Menari</p>
-                <p className={styles["hastag__caption"]}>Tertawa</p>
+                <p className={styles["hastag__caption"]}>Modern Dance</p>
+                <p className={styles["hastag__caption"]}>Dance</p>
               </div>
               <h3 className={styles["card__title"]}>Dance</h3>
               <p className={styles["card__description"]}>
