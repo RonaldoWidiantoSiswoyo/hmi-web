@@ -49,7 +49,6 @@
 }
 .hastag {
   display: flex;
-  justify-content: start;
 }
 .hastag__caption {
   font-size: 9px;
