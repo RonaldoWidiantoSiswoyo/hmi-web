@@ -11,7 +11,7 @@ export default function Event() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt eius
             deserunt possimus, aspernatur vel quia totam magni repellendus
             itaque. Deleniti magni vero autem alias iste cupiditate accusantium
-            blanditiis facere nesciunt ut inventore debitis, nihil odit quidem
+            blanditiis facere nesciunt ut inventfore debitis, nihil odit quidem
             tempora quaerat culpa consequatur?
           </p>
         </div>
