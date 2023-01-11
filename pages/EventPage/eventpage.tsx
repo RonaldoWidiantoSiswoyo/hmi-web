@@ -25,7 +25,7 @@ export default function EventPage() {
           <div className={styles["eventpage__container"]}>
             <div className={styles["left__section"]}>
               <div className={styles["eventpage__image"]}>
-                <img src="januari.jpg" alt="logo januari" />
+                <img src="/public/januari.jpg" alt="logo januari" />
               </div>
               <div className={styles["eventpage__description"]}>
                 <div className={styles["eventpage__description-title"]}>
